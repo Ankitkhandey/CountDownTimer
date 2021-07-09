@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CountDown Timer</title>
+</head>
+<body>
+    <div class="input" id="input">
+    <label for="fixTime">ENTER A DATE</label>
+    <input type="date" id="fixTime">
+    <button onclick="setdate(document.getElementById('fixTime'))">Submit</button>
+    <button onclick="window.location.reload()">Reset</button>
+    </div>
+
+    <h1>COUNT DOWN TIMER</h1>
+    <div class="container">
+        
+        <div class="day-container" id="day-container">
+            <p class="day-box" id="day">0</p>
+            <span>DAYS</span>
+        </div>
+
+        <div class="hour-container" id="hour-container">
+            <p class="hour-box" id="hour">0</p>
+            <span>HOURS</span>
+        </div>
+
+        <div class="minute-container" id="minute-container">
+            <p class="minute-box" id="minute">0</p>
+            <span>MINUTES</span>
+        </div>
+
+        <div class="second-container" id="second-container">
+            <p class="dsecond-box" id="second">0</p>
+            <span>SECONDS</span>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

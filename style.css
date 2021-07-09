@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+
+*{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    color: rgb(88, 88, 88);
+}
+body{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1,
+.container{
+    margin-left: -10rem;
+    border: 2px solid white;
+    width: 750px;
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -5rem;
+    padding-bottom: 1rem;
+    border-top: none;
+}
+
+p,
+span{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:1rem 3rem;
+}
+p{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(88, 88, 88);
+}
+
+.input,
+input,
+button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input{
+    font-size: 25px;
+}
+
+input{
+    padding: 5px ;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+
+button{
+    font-size: 20px;
+    padding: 9px 20px;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    box-shadow: 0px 2px 2px rgb(88, 88, 88);
+}
+#warning-signal{
+    color: tomato;
+    font-size: 20px;
+    margin:-1rem;
+}
